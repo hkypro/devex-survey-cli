@@ -76,7 +76,7 @@ requires-dist = [{ name = "pyyaml", specifier = ">=6.0,<7" }]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "mypy", specifier = ">=1.18,<3" },
+    { name = "mypy", specifier = ">=2.4,<3" },
     { name = "pytest", specifier = ">=9.0,<10" },
     { name = "ruff", specifier = ">=0.14,<1" },
     { name = "types-pyyaml", specifier = ">=6.0,<7" },
