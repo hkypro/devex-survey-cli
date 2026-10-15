@@ -1,0 +1,52 @@
+version: 1
+title: Developer Experience Pulse
+description: >-
+  A short questionnaire about the conditions that help developers make progress.
+  Answer based on your experience during the last four weeks.
+
+scale:
+  min: 1
+  max: 5
+  labels:
+    1: Strongly disagree
+    2: Disagree
+    3: Neither agree nor disagree
+    4: Agree
+    5: Strongly agree
+
+questions:
+  - id: local-feedback-speed
+    dimension: feedback_loops
+    text: I receive useful feedback from local development tools quickly enough to maintain momentum.
+  - id: ci-feedback-speed
+    dimension: feedback_loops
+    text: Continuous integration results arrive quickly enough for me to act on them without losing context.
+  - id: review-feedback-quality
+    dimension: feedback_loops
+    text: Code review feedback is timely and helps me move the work forward.
+
+  - id: setup-clarity
+    dimension: cognitive_load
+    text: It is clear how to set up, run, and test the services I work on.
+  - id: information-discovery
+    dimension: cognitive_load
+    text: I can find the technical information I need without searching across many disconnected places.
+  - id: delivery-complexity
+    dimension: cognitive_load
+    text: Routine delivery tasks require a reasonable number of tools and manual steps.
+
+  - id: focus-time
+    dimension: flow_state
+    text: I have enough uninterrupted time to make meaningful progress on development work.
+  - id: work-clarity
+    dimension: flow_state
+    text: The expected outcome of my current development work is clear.
+  - id: workflow-momentum
+    dimension: flow_state
+    text: My development environment helps me sustain momentum without avoidable interruptions.
+
+open_questions:
+  - id: biggest-friction
+    text: What is the single biggest source of friction in your development workflow today?
+  - id: highest-impact-improvement
+    text: What one improvement would have the greatest positive impact on your daily work?

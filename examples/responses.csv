@@ -1,0 +1,9 @@
+team,local-feedback-speed,ci-feedback-speed,review-feedback-quality,setup-clarity,information-discovery,delivery-complexity,focus-time,work-clarity,workflow-momentum,biggest-friction,highest-impact-improvement
+Platform,4,3,4,5,3,4,3,4,4,Slow CI feedback,Shorter test suites
+Platform,5,4,4,4,4,4,3,5,4,Interruptions,More focus time
+Platform,4,4,5,5,4,3,4,4,5,Manual release steps,Automate releases
+Platform,3,3,4,4,3,3,4,4,4,Scattered documentation,One documentation entry point
+Platform,5,4,5,5,4,4,4,5,5,,
+Payments,3,2,3,3,2,2,2,3,3,Environment setup,Faster onboarding
+Payments,4,3,3,3,2,3,3,4,3,Finding service owners,A searchable catalog
+Payments,3,2,4,4,3,2,2,3,3,Long pipelines,Parallel CI jobs
